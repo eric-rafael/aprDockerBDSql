@@ -6,8 +6,8 @@ services:
     container_name: mysql_container
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: feltex
-      MYSQL_DATABASE: dbfeltex
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: dbNode
     ports:
       - "3306:3306"
     cap_add:
